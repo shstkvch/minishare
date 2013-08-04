@@ -1,0 +1,60 @@
+
+div#minishare {
+  right: 20px; 
+  top: 200px;
+  position: fixed;
+  display: block;
+  background: rgb(245,245,245);
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+div#minishare div.facebook, div#minishare div.twitter {
+  padding: 4px 4px 4px 7px;
+  background: #ebedf4;
+  width: 51px;
+  border: 1px solid #cad4e7;
+  background-image: url(../img/fb16.gif);
+  background-repeat: no-repeat;
+  background-position: 4px 2px;
+  text-align: right;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+div#minishare div.facebook a, div#minishare div.twitter a {
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 11px;
+  color: #3b5897;
+  text-decoration: none;
+}
+
+div#minishare div.facebook:hover, div#minishare div.twitter:hover {
+  border-color: #728dc0;
+}
+
+div#minishare div.twitter {
+  background-color: #dbf6ff;
+  border-color: #42cfff;
+  background-image: url(../img/twt16.png);
+  margin-bottom: 0;
+}
+
+div#minishare div.twitter a {
+  color: #00a4db;
+}
+
+div#minishare div.twitter:hover {
+  border-color: #00a4db;
+}
+
+div#minishare p#message {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: rgb(100,100,100);
+  font-family: Arial, sans-serif;
+}

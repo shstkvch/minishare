@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.8.4/jquery.lazyload.min.js"></script>
+		<script type="text/javascript" src="./minishare-0.0.1.js"></script>
+		<title>Minishare</title>
+	</head>
+	<body>
+		<h1>Minishare</h1>
+		<p>A really simple sharing widget by David Hewitson.</p>
+		<p>Designed to be minimalist - does not require any FB SDKs or configuration of any kind.</p>
+		<h2>Demo</h2>
+		<p>On the right.</p>
+		<h2>Instructions:</h2>
+		<p>Include jQuery and ./minishare-0.0.1.js</p>
+		<p>Call $.miniShare() to show the widget.</p>
+		<h2>Options (all optional):</h2>
+		<p>url - url to share (default is the current page)</p>
+		<p>message - message to show above the icons</p>
+		<p>done_message - message to show after sharing</p>
+		<p>twitter_message - message to include in the tweet. This prefaces the URL.</p>
+		<p>html - a string of HTML to use for the widget.</p>
+		<h2>Simple example:</h2>
+		<pre>
+$.miniShare( { 
+	message: "hey!", 
+	url: "http://google.com" 
+});
+		</pre>
+		<h2>Finally</h2>
+		<p>To change the position/styling of the widget, go to /css/minishare.css and muck around with div#minishare.</p>
+		<h2>License</h2>
+		<pre>
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+		</pre>
+		<script type="text/javascript">
+			$.miniShare();
+		</script>
+	</body>
+</html>
