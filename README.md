@@ -2,6 +2,8 @@ Minishare
 =========
 A really simple sharing widget by David Hewitson.
 
+It hangs down the right hand side of the page, and is fixed in place with CSS when you scroll.
+
 Designed to be minimalist - does not require any FB SDKs or configuration of any kind.
 
 Screenshot
