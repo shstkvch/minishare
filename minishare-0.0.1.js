@@ -58,7 +58,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 		$('head').append('<link rel="stylesheet" id="minishare-styles" href="./css/minishare.css"></link>');
 
 		// set the message
-		$('p#message').html(opts.message);
+		$('#minishare p#message').html(opts.message);
 
 		$('#minishare div').click(function() {
 			$(this).children()[0].click(); // quick & dirty fix
@@ -81,7 +81,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 			    try {
 			        if (share_window.closed) {
 			            clearTimeout(watchClose);
-			            $('p#message').html(opts.done_message)
+			            $('#minishare p#message').html(opts.done_message)
 			        }
 			    } catch (e) {}
 			}, 200);
