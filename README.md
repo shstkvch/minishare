@@ -6,6 +6,10 @@ It hangs down the right hand side of the page, and is fixed in place with CSS wh
 
 Designed to be minimalist - does not require any FB SDKs or configuration of any kind.
 
+Demo
+----------
+http://rawgithub.com/dwhewitson/minishare/master/demo.html#
+
 Screenshot
 ----------
 ![Screenshot of Minishare](/screenshot.png)
