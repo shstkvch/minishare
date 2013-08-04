@@ -8,7 +8,7 @@ Designed to be minimalist - does not require any FB SDKs or configuration of any
 
 Demo
 ----------
-(http://rawgithub.com/dwhewitson/minishare/master/demo.html#)[Here!]
+http://rawgithub.com/dwhewitson/minishare/master/demo.html#
 
 Screenshot
 ----------
