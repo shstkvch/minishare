@@ -46,7 +46,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 			twitter_message: 'Check this out', // article title or something
 
-			html: def_html
+			html: def_html,
+			style: './css/minishare.css'
 		}
 
 		var opts = $.extend(defaults, options);
@@ -55,7 +56,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 		widget = $('body').append(opts.html);		
 
 		// inject the css
-		$('head').append('<link rel="stylesheet" id="minishare-styles" href="./css/minishare.css"></link>');
+		$('head').append('<link rel="stylesheet" id="minishare-styles" href="' + opts.style + '"></link>');
 
 		// set the message
 		$('#minishare p#message').html(opts.message);
