@@ -19,7 +19,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 (function($) {
 	$.miniShare = function(options) {
 		if($('#minishare').length > 0) {
-			console.error('Minishare widget already on the page (or there\'s a naming conflict.)');
+			if (window.console && window.console.error) {
+				console.error('Minishare widget already on the page (or there\'s a naming conflict.)');
+			}
 			return false;
 		}
 		var def_html = 
